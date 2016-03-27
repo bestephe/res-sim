@@ -1,0 +1,269 @@
+diff -rup igraph-0.6.5/include/igraph_dqueue_pmt.h igraph-0.6.5-resnet/include/igraph_dqueue_pmt.h
+--- igraph-0.6.5/include/igraph_dqueue_pmt.h	2013-03-02 14:23:36.000000000 -0600
++++ igraph-0.6.5-resnet/include/igraph_dqueue_pmt.h	2016-02-15 19:28:43.797151110 -0600
+@@ -44,6 +44,8 @@ BASE FUNCTION(igraph_dqueue,pop_back)(TY
+ BASE FUNCTION(igraph_dqueue,head)    (const TYPE(igraph_dqueue)* q);
+ BASE FUNCTION(igraph_dqueue,back)    (const TYPE(igraph_dqueue)* q);
+ int FUNCTION(igraph_dqueue,push)    (TYPE(igraph_dqueue)* q, BASE elem);
++int FUNCTION(igraph_dqueue,shuffle) (TYPE(igraph_dqueue)* q);
+ int FUNCTION(igraph_dqueue,print)(const TYPE(igraph_dqueue)* q);
+ int FUNCTION(igraph_dqueue,fprint)(const TYPE(igraph_dqueue)* q, FILE *file);
+ BASE FUNCTION(igraph_dqueue,e)(const TYPE(igraph_dqueue) *q, long int idx);
++BASE* FUNCTION(igraph_dqueue,e_ptr)(const TYPE(igraph_dqueue) *q, long int idx);
+diff -rup igraph-0.6.5/src/dqueue.pmt igraph-0.6.5-resnet/src/dqueue.pmt
+--- igraph-0.6.5/src/dqueue.pmt	2013-03-02 14:23:36.000000000 -0600
++++ igraph-0.6.5-resnet/src/dqueue.pmt	2016-02-15 19:29:30.968728501 -0600
+@@ -328,6 +328,68 @@ int FUNCTION(igraph_dqueue,push) (TYPE(i
+ 	return 0;
+ }
+ 
++int FUNCTION(igraph_dqueue,shuffle) (TYPE(igraph_dqueue)* q) {
++  long int size = FUNCTION(igraph_dqueue,size)(q);
++  long int itemlen = 3;
++  if (size % itemlen != 0) {
++    IGRAPH_ERROR("This is a terribly hacked shuffle that assumes the dqueue contains items that are 3 elements long\n", IGRAPH_EINVAL);
++  }
++  
++  if (size > 1) {
++    RNG_BEGIN();
++    long int i;
++    for (i = 0; i < (size / 3) - 1; i++) {
++      //long int j = igraph_rng_get_integer(igraph_rng_default(),
++      //    i, size - 1);
++      long int j = RNG_INTEGER(i, (size / 3) - 1);
++
++      long int ai = i * 3;
++      long int aj = j * 3;
++
++      /* Get i and j values. */
++      BASE* i0 = FUNCTION(igraph_dqueue,e_ptr)(q, ai);
++      BASE* i1 = FUNCTION(igraph_dqueue,e_ptr)(q, ai + 1);
++      BASE* i2 = FUNCTION(igraph_dqueue,e_ptr)(q, ai + 2);
++      BASE* j0 = FUNCTION(igraph_dqueue,e_ptr)(q, aj);
++      BASE* j1 = FUNCTION(igraph_dqueue,e_ptr)(q, aj + 1);
++      BASE* j2 = FUNCTION(igraph_dqueue,e_ptr)(q, aj + 2);
++
++      BASE tmp;
++      tmp = *i0;
++      *i0 = *j0;
++      *j0 = tmp;
++      tmp = *i1;
++      *i1 = *j1;
++      *j1 = tmp;
++      tmp = *i2;
++      *i2 = *j2;
++      *j2 = tmp;
++
++#if 0
++      /* XXX: Ugly code. should be factored */
++      if ((q->begin + i < q->end) ||
++          (q->begin >= q->end && q->begin+i < q->stor_end)) {
++        q->begin[i] = j_val;
++      } else if (q->begin >= q->end && q->stor_begin+i < q->end) {
++        i = i-(q->stor_end - q->begin);
++        q->stor_begin[i] = j_val;
++      }
++
++      if ((q->begin + j < q->end) ||
++          (q->begin >= q->end && q->begin+j < q->stor_end)) {
++        q->begin[j] = i_val;
++      } else if (q->begin >= q->end && q->stor_begin+j < q->end) {
++        j = j-(q->stor_end - q->begin);
++        q->stor_begin[j] = i_val;
++      }
++#endif
++    }
++    RNG_END();
++  }
++
++  return IGRAPH_SUCCESS;
++}
++
+ #if defined (OUT_FORMAT)
+ 
+ #ifndef USING_R
+@@ -370,13 +432,28 @@ int FUNCTION(igraph_dqueue,fprint)(const
+ #endif
+ 
+ BASE FUNCTION(igraph_dqueue,e)(const TYPE(igraph_dqueue) *q, long int idx) {
++  long int adj_idx = idx-(q->stor_end - q->begin);
+   if ((q->begin + idx < q->end) ||
+       (q->begin >= q->end && q->begin+idx < q->stor_end)) {
+     return q->begin[idx];
+-  } else if (q->begin >= q->end && q->stor_begin+idx < q->end) {
+-    idx = idx-(q->stor_end - q->begin);
+-    return q->stor_begin[idx];
++  } else if (q->begin >= q->end && q->stor_begin+adj_idx < q->end) {
++    return q->stor_begin[adj_idx];
+   } else {
+     return 0;			/* Error */
+   }
+ }
++
++BASE* FUNCTION(igraph_dqueue,e_ptr)(const TYPE(igraph_dqueue) *q, long int idx) {
++  assert(q!=NULL);
++  assert(q->stor_begin != NULL);
++  long int adj_idx = idx-(q->stor_end - q->begin);
++  if ((q->begin + idx < q->end) ||
++      (q->begin >= q->end && q->begin+idx < q->stor_end)) {
++    return q->begin + idx;
++  } else if (q->begin >= q->end && q->stor_begin+adj_idx < q->end) {
++    //idx = idx-(q->stor_end - q->begin);
++    return q->stor_begin + adj_idx;
++  } else {
++    return NULL;			/* Error */
++  }
++}
+diff -rup igraph-0.6.5/src/igraph_error.c igraph-0.6.5-resnet/src/igraph_error.c
+--- igraph-0.6.5/src/igraph_error.c	2013-03-02 14:23:36.000000000 -0600
++++ igraph-0.6.5-resnet/src/igraph_error.c	2016-02-15 19:29:19.318905663 -0600
+@@ -162,7 +162,7 @@ igraph_set_error_handler (igraph_error_h
+   return previous_handler;
+ }
+ 
+-IGRAPH_THREAD_LOCAL struct igraph_i_protectedPtr igraph_i_finally_stack[100];
++IGRAPH_THREAD_LOCAL struct igraph_i_protectedPtr igraph_i_finally_stack[1000000];
+ 
+ /*
+  * Adds another element to the free list
+@@ -170,7 +170,7 @@ IGRAPH_THREAD_LOCAL struct igraph_i_prot
+ 
+ void IGRAPH_FINALLY_REAL(void (*func)(void*), void* ptr) {
+   int no=igraph_i_finally_stack[0].all;
+-  assert (no<100);
++  assert (no<1000000);
+   assert (no>=0);
+   igraph_i_finally_stack[no].ptr=ptr;
+   igraph_i_finally_stack[no].func=func;
+diff -rup igraph-0.6.5/src/structural_properties.c igraph-0.6.5-resnet/src/structural_properties.c
+--- igraph-0.6.5/src/structural_properties.c	2013-03-02 14:23:36.000000000 -0600
++++ igraph-0.6.5-resnet/src/structural_properties.c	2016-02-15 19:29:31.020754504 -0600
+@@ -532,6 +532,7 @@ int igraph_shortest_paths(const igraph_t
+       }
+       
+       neis = igraph_adjlist_get(&adjlist, act);
++      IGRAPH_CHECK(igraph_vector_shuffle(neis));
+       for (j=0; j<igraph_vector_size(neis); j++) {
+         long int neighbor=VECTOR(*neis)[j];
+         if (already_counted[neighbor] == i+1) { continue; }
+@@ -689,6 +690,7 @@ int igraph_get_shortest_paths(const igra
+     long int act=igraph_dqueue_pop(&q)-1;
+     
+     IGRAPH_CHECK(igraph_incident(graph, &tmp, act, mode));
++    IGRAPH_CHECK(igraph_vector_shuffle(&tmp));
+     for (j=0; j<igraph_vector_size(&tmp); j++) {
+       long int edge=VECTOR(tmp)[j];
+       long int neighbor=IGRAPH_OTHER(graph, edge, act);
+@@ -703,7 +705,8 @@ int igraph_get_shortest_paths(const igra
+   }
+ 
+   if (reached < to_reach) {
+-    IGRAPH_WARNING("Couldn't reach some vertices");
++    printf("WARNING: Couldn't reach some vertices\n");
++    //IGRAPH_WARNING("Couldn't reach some vertices");
+   }
+   
+   if (vertices || edges) {
+diff -rup igraph-0.6.5/src/visitors.c igraph-0.6.5-resnet/src/visitors.c
+--- igraph-0.6.5/src/visitors.c	2013-03-02 14:23:36.000000000 -0600
++++ igraph-0.6.5-resnet/src/visitors.c	2016-02-15 19:29:18.038265571 -0600
+@@ -273,7 +273,8 @@ int igraph_i_bfs(igraph_t *graph, igraph
+ 		 igraph_vector_t *vids, igraph_vector_t *layers,
+ 		 igraph_vector_t *parents) {   
+ 
+-  igraph_dqueue_t q;
++  igraph_dqueue_t q, nq;
++  igraph_dqueue_t *qptr, *nqptr;
+   long int vidspos=0;
+   igraph_vector_t neis;
+   long int no_of_nodes=igraph_vcount(graph);
+@@ -297,20 +298,75 @@ int igraph_i_bfs(igraph_t *graph, igraph
+   IGRAPH_VECTOR_INIT_FINALLY(&neis, 0);
+   IGRAPH_CHECK(igraph_dqueue_init(&q, 100));
+   IGRAPH_FINALLY(igraph_dqueue_destroy, &q);
++  IGRAPH_CHECK(igraph_dqueue_init(&nq, 100));
++  IGRAPH_FINALLY(igraph_dqueue_destroy, &nq);
+ 
+   /* results */
+   IGRAPH_CHECK(igraph_vector_resize(vids, no_of_nodes));
+   igraph_vector_clear(layers);
+   IGRAPH_CHECK(igraph_vector_resize(parents, no_of_nodes));
++  igraph_vector_fill(parents, -1);
+   
+   /* ok start with vid */
+-  IGRAPH_CHECK(igraph_dqueue_push(&q, vid));
+-  IGRAPH_CHECK(igraph_dqueue_push(&q, 0));
++  //IGRAPH_CHECK(igraph_dqueue_push(&q, vid));
++  //IGRAPH_CHECK(igraph_dqueue_push(&q, 0));
+   IGRAPH_CHECK(igraph_vector_push_back(layers, vidspos)); 
+   VECTOR(*vids)[vidspos++]=vid; 
+   VECTOR(*parents)[(long int)vid]=vid;
+   added[(long int)vid]=1;
++
++  /* start with vid's children */
++  IGRAPH_CHECK(igraph_neighbors(graph, &neis, vid, mode));
++  for (i=0; i<igraph_vector_size(&neis); i++) {
++    long int neighbor=VECTOR(neis)[i];
++    IGRAPH_CHECK(igraph_dqueue_push(&q, neighbor));
++    IGRAPH_CHECK(igraph_dqueue_push(&q, vid));
++    IGRAPH_CHECK(igraph_dqueue_push(&q, 0));
++  }
++
++  qptr = &q;
++  nqptr = &nq;
++  while (!igraph_dqueue_empty(qptr)) {
++    IGRAPH_CHECK(igraph_dqueue_shuffle(qptr));
++    while (!igraph_dqueue_empty(qptr)) {
++      long int nvect=igraph_dqueue_pop(qptr);
++      long int actvect=igraph_dqueue_pop(qptr);
++      long int actdist=igraph_dqueue_pop(qptr);
++      if (added[nvect]==0) {
++        //printf("p: %d, c: %d, d: %d\n", actvect, nvect, actdist);
++	added[nvect]=1;
++	VECTOR(*parents)[nvect]=actvect;
++	if (lastlayer != actdist+1) {
++	    IGRAPH_CHECK(igraph_vector_push_back(layers, vidspos));
++	}
++	VECTOR(*vids)[vidspos++]=nvect;
++	lastlayer=actdist+1;
++	IGRAPH_CHECK(igraph_neighbors(graph, &neis, nvect, mode));
++	for (i=0; i<igraph_vector_size(&neis); i++) {
++	  long int neighbor=VECTOR(neis)[i];
++	  if (added[neighbor]==0) {
++	    IGRAPH_CHECK(igraph_dqueue_push(nqptr, neighbor));
++	    IGRAPH_CHECK(igraph_dqueue_push(nqptr, nvect));
++	    IGRAPH_CHECK(igraph_dqueue_push(nqptr, actdist+1));
++	  }
++	} /* for i in neis */
++      }
++    } /* while ! dqueue_empty */
++    if (qptr == &q) {
++      qptr = &nq;
++      nqptr = &q;
++    } else {
++      qptr = &q;
++      nqptr = &nq;
++    }
++    //DEBUG_ASSERT(igraph_dqueue_empty(nqptr));
++    if (!igraph_dqueue_empty(nqptr)) {
++      IGRAPH_ERROR("Non-empty nqptr", IGRAPH_EINVAL);
++    }
++  } /* while ! dqueue_empty */
++  IGRAPH_CHECK(igraph_vector_push_back(layers, vidspos));
+   
++#if 0
+   while (!igraph_dqueue_empty(&q)) {
+     long int actvect=igraph_dqueue_pop(&q);
+     long int actdist=igraph_dqueue_pop(&q);
+@@ -331,9 +387,11 @@ int igraph_i_bfs(igraph_t *graph, igraph
+     } /* for i in neis */
+   } /* while ! dqueue_empty */
+   IGRAPH_CHECK(igraph_vector_push_back(layers, vidspos));
++#endif
+   
+   igraph_vector_destroy(&neis);
+   igraph_dqueue_destroy(&q);
++  igraph_dqueue_destroy(&nq);
+   igraph_Free(added);
+   IGRAPH_FINALLY_CLEAN(3);
+ 		 
