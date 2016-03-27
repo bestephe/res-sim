@@ -1,0 +1,2154 @@
+---
+Switches:
+- uid_1002:
+    ports:
+      0: uid_3997 port 0
+- uid_1341:
+    ports:
+      0: uid_3930 port 16
+      1: uid_3943 port 9
+- uid_1770:
+    ports:
+      0: uid_4306 port 40
+- uid_1783:
+    ports:
+      0: uid_1786 port 2
+- uid_1784:
+    ports:
+      0: uid_1793 port 17
+      1: uid_1796 port 4
+      2: uid_1797 port 3
+      3: uid_1798 port 7
+      4: uid_1799 port 11
+      5: uid_1800 port 4
+      6: uid_1801 port 4
+      7: uid_1802 port 5
+      8: uid_1803 port 2
+      9: uid_1804 port 2
+      10: uid_1807 port 4
+      11: uid_1808 port 8
+      12: uid_1809 port 3
+      13: uid_1810 port 8
+      14: uid_1811 port 2
+      15: uid_3928 port 10
+      16: uid_4216 port 10
+      17: uid_3929 port 26
+      18: uid_3930 port 17
+      19: uid_1787 port 3
+- uid_1785:
+    ports:
+      0: uid_1792 port 17
+      1: uid_1793 port 18
+      2: uid_1794 port 0
+      3: uid_1796 port 5
+      4: uid_1797 port 4
+      5: uid_1798 port 8
+      6: uid_1799 port 12
+      7: uid_1800 port 5
+      8: uid_1801 port 5
+      9: uid_1802 port 6
+      10: uid_1803 port 3
+      11: uid_1804 port 3
+      12: uid_1805 port 0
+      13: uid_1806 port 0
+      14: uid_1807 port 5
+      15: uid_1808 port 9
+      16: uid_1809 port 4
+      17: uid_1810 port 9
+      18: uid_1811 port 3
+      19: uid_1812 port 5
+      20: uid_1813 port 0
+      21: uid_3930 port 45
+      22: uid_4216 port 11
+      23: uid_4217 port 21
+      24: uid_1787 port 4
+      25: uid_1788 port 1
+      26: uid_1789 port 0
+- uid_1786:
+    ports:
+      0: uid_1792 port 18
+      1: uid_1787 port 2
+      2: uid_1783 port 0
+- uid_1787:
+    ports:
+      0: uid_1792 port 19
+      1: uid_1793 port 19
+      2: uid_1786 port 1
+      3: uid_1784 port 19
+      4: uid_1785 port 24
+- uid_1788:
+    ports:
+      0: uid_1792 port 20
+      1: uid_1785 port 25
+- uid_1789:
+    ports:
+      0: uid_1785 port 26
+- uid_1790:
+    ports:
+      0: uid_1792 port 21
+      1: uid_1793 port 20
+      2: uid_694 port 0
+      3: uid_4360 port 0
+      4: uid_1897 port 5
+      5: uid_4367 port 0
+      6: uid_3988 port 2
+      7: uid_4246 port 0
+      8: uid_3991 port 1
+      9: uid_4248 port 1
+      10: uid_1819 port 1
+      11: uid_3997 port 2
+      12: uid_4254 port 1
+- uid_1791:
+    ports:
+      0: uid_1792 port 22
+      1: uid_1793 port 15
+      2: uid_4356 port 2
+      3: uid_1894 port 0
+      4: uid_3911 port 0
+- uid_1792:
+    ports:
+      0: uid_1795 port 0
+      1: uid_1796 port 0
+      2: uid_1797 port 0
+      3: uid_1798 port 0
+      4: uid_1799 port 0
+      5: uid_1800 port 0
+      6: uid_1801 port 0
+      7: uid_1802 port 0
+      8: uid_1803 port 0
+      9: uid_1804 port 0
+      10: uid_1807 port 0
+      11: uid_1808 port 0
+      12: uid_1809 port 0
+      13: uid_1810 port 0
+      14: uid_1811 port 0
+      15: uid_1812 port 0
+      16: uid_798 port 0
+      17: uid_1785 port 0
+      18: uid_1786 port 0
+      19: uid_1787 port 0
+      20: uid_1788 port 0
+      21: uid_1790 port 0
+      22: uid_1791 port 0
+- uid_1793:
+    ports:
+      0: uid_1796 port 1
+      1: uid_1797 port 1
+      2: uid_1798 port 1
+      3: uid_1799 port 1
+      4: uid_1800 port 1
+      5: uid_1801 port 1
+      6: uid_1802 port 1
+      7: uid_1803 port 1
+      8: uid_1804 port 1
+      9: uid_1807 port 1
+      10: uid_1808 port 1
+      11: uid_1809 port 1
+      12: uid_1810 port 1
+      13: uid_1811 port 1
+      14: uid_1812 port 1
+      15: uid_1791 port 1
+      16: uid_3930 port 1
+      17: uid_1784 port 0
+      18: uid_1785 port 1
+      19: uid_1787 port 1
+      20: uid_1790 port 1
+      21: uid_4223 port 0
+- uid_1794:
+    ports:
+      0: uid_1785 port 2
+- uid_1795:
+    ports:
+      0: uid_1792 port 0
+- uid_1796:
+    ports:
+      0: uid_1792 port 1
+      1: uid_1793 port 0
+      2: uid_1798 port 2
+      3: uid_1799 port 2
+      4: uid_1784 port 1
+      5: uid_1785 port 3
+- uid_1797:
+    ports:
+      0: uid_1792 port 2
+      1: uid_1793 port 1
+      2: uid_1810 port 2
+      3: uid_1784 port 2
+      4: uid_1785 port 4
+- uid_1798:
+    ports:
+      0: uid_1792 port 3
+      1: uid_1793 port 2
+      2: uid_1796 port 2
+      3: uid_1799 port 3
+      4: uid_1802 port 2
+      5: uid_1807 port 2
+      6: uid_1808 port 2
+      7: uid_1784 port 3
+      8: uid_1785 port 5
+- uid_1799:
+    ports:
+      0: uid_1792 port 4
+      1: uid_1793 port 3
+      2: uid_1796 port 3
+      3: uid_1798 port 3
+      4: uid_1800 port 2
+      5: uid_1802 port 3
+      6: uid_1807 port 3
+      7: uid_1808 port 3
+      8: uid_1809 port 2
+      9: uid_1810 port 3
+      10: uid_1812 port 2
+      11: uid_1784 port 4
+      12: uid_1785 port 6
+- uid_1800:
+    ports:
+      0: uid_1792 port 5
+      1: uid_1793 port 4
+      2: uid_1799 port 4
+      3: uid_1808 port 4
+      4: uid_1784 port 5
+      5: uid_1785 port 7
+- uid_1801:
+    ports:
+      0: uid_1792 port 6
+      1: uid_1793 port 5
+      2: uid_1808 port 5
+      3: uid_1810 port 4
+      4: uid_1784 port 6
+      5: uid_1785 port 8
+- uid_1802:
+    ports:
+      0: uid_1792 port 7
+      1: uid_1793 port 6
+      2: uid_1798 port 4
+      3: uid_1799 port 5
+      4: uid_1810 port 5
+      5: uid_1784 port 7
+      6: uid_1785 port 9
+- uid_1803:
+    ports:
+      0: uid_1792 port 8
+      1: uid_1793 port 7
+      2: uid_1784 port 8
+      3: uid_1785 port 10
+- uid_1804:
+    ports:
+      0: uid_1792 port 9
+      1: uid_1793 port 8
+      2: uid_1784 port 9
+      3: uid_1785 port 11
+- uid_1805:
+    ports:
+      0: uid_1785 port 12
+- uid_1806:
+    ports:
+      0: uid_1785 port 13
+- uid_1807:
+    ports:
+      0: uid_1792 port 10
+      1: uid_1793 port 9
+      2: uid_1798 port 5
+      3: uid_1799 port 6
+      4: uid_1784 port 10
+      5: uid_1785 port 14
+- uid_1808:
+    ports:
+      0: uid_1792 port 11
+      1: uid_1793 port 10
+      2: uid_1798 port 6
+      3: uid_1799 port 7
+      4: uid_1800 port 3
+      5: uid_1801 port 2
+      6: uid_1810 port 6
+      7: uid_1812 port 3
+      8: uid_1784 port 11
+      9: uid_1785 port 15
+- uid_1809:
+    ports:
+      0: uid_1792 port 12
+      1: uid_1793 port 11
+      2: uid_1799 port 8
+      3: uid_1784 port 12
+      4: uid_1785 port 16
+- uid_1810:
+    ports:
+      0: uid_1792 port 13
+      1: uid_1793 port 12
+      2: uid_1797 port 2
+      3: uid_1799 port 9
+      4: uid_1801 port 3
+      5: uid_1802 port 4
+      6: uid_1808 port 6
+      7: uid_1812 port 4
+      8: uid_1784 port 13
+      9: uid_1785 port 17
+- uid_1811:
+    ports:
+      0: uid_1792 port 14
+      1: uid_1793 port 13
+      2: uid_1784 port 14
+      3: uid_1785 port 18
+- uid_1812:
+    ports:
+      0: uid_1792 port 15
+      1: uid_1793 port 14
+      2: uid_1799 port 10
+      3: uid_1808 port 7
+      4: uid_1810 port 7
+      5: uid_1785 port 19
+- uid_1813:
+    ports:
+      0: uid_1785 port 20
+- uid_1814:
+    ports:
+      0: uid_4222 port 3
+- uid_1815:
+    ports:
+      0: uid_1817 port 2
+- uid_1816:
+    ports:
+      0: uid_1817 port 0
+- uid_1817:
+    ports:
+      0: uid_1816 port 0
+      1: uid_3927 port 12
+      2: uid_1815 port 0
+- uid_1819:
+    ports:
+      0: uid_1820 port 0
+      1: uid_1790 port 10
+- uid_1820:
+    ports:
+      0: uid_1819 port 0
+- uid_1822:
+    ports:
+      0: uid_1823 port 0
+      1: uid_3927 port 14
+- uid_1823:
+    ports:
+      0: uid_1822 port 0
+- uid_1826:
+    ports:
+      0: uid_1827 port 0
+- uid_1827:
+    ports:
+      0: uid_1826 port 0
+      1: uid_3927 port 0
+- uid_1829:
+    ports:
+      0: uid_1832 port 0
+      1: uid_4265 port 0
+      2: uid_1831 port 0
+- uid_1830:
+    ports:
+      0: uid_4256 port 1
+      1: uid_1831 port 1
+      2: uid_3912 port 1
+      3: uid_3917 port 3
+      4: uid_1870 port 0
+      5: uid_3919 port 2
+      6: uid_1872 port 1
+      7: uid_1832 port 1
+      8: uid_4345 port 1
+      9: uid_4350 port 3
+- uid_1831:
+    ports:
+      0: uid_1829 port 2
+      1: uid_1830 port 1
+      2: uid_1863 port 0
+- uid_1832:
+    ports:
+      0: uid_1829 port 0
+      1: uid_1830 port 7
+      2: uid_1833 port 0
+      3: uid_1835 port 0
+      4: uid_1836 port 0
+      5: uid_1838 port 0
+      6: uid_1839 port 0
+      7: uid_1840 port 0
+      8: uid_1841 port 0
+      9: uid_1842 port 0
+      10: uid_1843 port 0
+      11: uid_1844 port 0
+      12: uid_1845 port 0
+      13: uid_1846 port 0
+      14: uid_1847 port 0
+      15: uid_1848 port 0
+      16: uid_1849 port 6
+      17: uid_1850 port 0
+      18: uid_1851 port 0
+      19: uid_1852 port 0
+      20: uid_1853 port 0
+      21: uid_1854 port 0
+      22: uid_1855 port 0
+      23: uid_1856 port 0
+      24: uid_1857 port 0
+      25: uid_1858 port 0
+      26: uid_1859 port 0
+      27: uid_1861 port 0
+      28: uid_1862 port 0
+      29: uid_1863 port 1
+      30: uid_1865 port 0
+      31: uid_1866 port 0
+      32: uid_1867 port 0
+- uid_1833:
+    ports:
+      0: uid_1832 port 2
+- uid_1834:
+    ports:
+      0: uid_1863 port 2
+- uid_1835:
+    ports:
+      0: uid_1832 port 3
+      1: uid_1849 port 7
+      2: uid_1863 port 3
+- uid_1836:
+    ports:
+      0: uid_1832 port 4
+      1: uid_1849 port 8
+      2: uid_1863 port 4
+- uid_1837:
+    ports:
+      0: uid_1861 port 2
+- uid_1838:
+    ports:
+      0: uid_1832 port 5
+      1: uid_1863 port 5
+- uid_1839:
+    ports:
+      0: uid_1832 port 6
+      1: uid_1849 port 9
+      2: uid_1863 port 6
+- uid_1840:
+    ports:
+      0: uid_1832 port 7
+      1: uid_1863 port 7
+- uid_1841:
+    ports:
+      0: uid_1832 port 8
+      1: uid_1849 port 10
+      2: uid_1863 port 8
+- uid_1842:
+    ports:
+      0: uid_1832 port 9
+      1: uid_1849 port 11
+      2: uid_1863 port 9
+- uid_1843:
+    ports:
+      0: uid_1832 port 10
+      1: uid_1849 port 12
+      2: uid_1863 port 10
+- uid_1844:
+    ports:
+      0: uid_1832 port 11
+      1: uid_1849 port 13
+      2: uid_1863 port 11
+- uid_1845:
+    ports:
+      0: uid_1832 port 12
+      1: uid_1849 port 14
+      2: uid_1863 port 12
+- uid_1846:
+    ports:
+      0: uid_1832 port 13
+      1: uid_1863 port 13
+- uid_1847:
+    ports:
+      0: uid_1832 port 14
+      1: uid_1849 port 15
+- uid_1848:
+    ports:
+      0: uid_1832 port 15
+- uid_1849:
+    ports:
+      0: uid_1856 port 1
+      1: uid_1857 port 1
+      2: uid_1858 port 1
+      3: uid_1859 port 1
+      4: uid_1861 port 1
+      5: uid_1863 port 14
+      6: uid_1832 port 16
+      7: uid_1835 port 1
+      8: uid_1836 port 1
+      9: uid_1839 port 1
+      10: uid_1841 port 1
+      11: uid_1842 port 1
+      12: uid_1843 port 1
+      13: uid_1844 port 1
+      14: uid_1845 port 1
+      15: uid_1847 port 1
+      16: uid_1851 port 1
+      17: uid_1855 port 1
+- uid_1850:
+    ports:
+      0: uid_1832 port 17
+      1: uid_1863 port 15
+- uid_1851:
+    ports:
+      0: uid_1832 port 18
+      1: uid_1849 port 16
+      2: uid_1863 port 16
+- uid_1852:
+    ports:
+      0: uid_1832 port 19
+- uid_1853:
+    ports:
+      0: uid_1832 port 20
+- uid_1854:
+    ports:
+      0: uid_1832 port 21
+- uid_1855:
+    ports:
+      0: uid_1832 port 22
+      1: uid_1849 port 17
+      2: uid_1863 port 17
+- uid_1856:
+    ports:
+      0: uid_1832 port 23
+      1: uid_1849 port 0
+      2: uid_1863 port 18
+- uid_1857:
+    ports:
+      0: uid_1832 port 24
+      1: uid_1849 port 1
+      2: uid_1863 port 19
+- uid_1858:
+    ports:
+      0: uid_1832 port 25
+      1: uid_1849 port 2
+      2: uid_1863 port 20
+- uid_1859:
+    ports:
+      0: uid_1832 port 26
+      1: uid_1849 port 3
+      2: uid_1863 port 21
+- uid_1861:
+    ports:
+      0: uid_1832 port 27
+      1: uid_1849 port 4
+      2: uid_1837 port 0
+      3: uid_1863 port 22
+- uid_1862:
+    ports:
+      0: uid_1832 port 28
+      1: uid_1865 port 1
+      2: uid_1866 port 1
+- uid_1863:
+    ports:
+      0: uid_1831 port 2
+      1: uid_1832 port 29
+      2: uid_1834 port 0
+      3: uid_1835 port 2
+      4: uid_1836 port 2
+      5: uid_1838 port 1
+      6: uid_1839 port 2
+      7: uid_1840 port 1
+      8: uid_1841 port 2
+      9: uid_1842 port 2
+      10: uid_1843 port 2
+      11: uid_1844 port 2
+      12: uid_1845 port 2
+      13: uid_1846 port 1
+      14: uid_1849 port 5
+      15: uid_1850 port 1
+      16: uid_1851 port 2
+      17: uid_1855 port 2
+      18: uid_1856 port 2
+      19: uid_1857 port 2
+      20: uid_1858 port 2
+      21: uid_1859 port 2
+      22: uid_1861 port 3
+      23: uid_1864 port 1
+      24: uid_1865 port 2
+      25: uid_1866 port 2
+      26: uid_4304 port 1
+      27: uid_4305 port 3
+      28: uid_4306 port 19
+- uid_1864:
+    ports:
+      0: uid_4256 port 0
+      1: uid_1863 port 23
+      2: uid_3917 port 0
+      3: uid_3919 port 0
+      4: uid_1872 port 0
+      5: uid_4344 port 0
+      6: uid_4350 port 0
+- uid_1865:
+    ports:
+      0: uid_1832 port 30
+      1: uid_1862 port 1
+      2: uid_1863 port 24
+- uid_1866:
+    ports:
+      0: uid_1832 port 31
+      1: uid_1862 port 2
+      2: uid_1863 port 25
+- uid_1867:
+    ports:
+      0: uid_1832 port 32
+- uid_1868:
+    ports:
+      0: uid_4221 port 2
+      1: uid_1869 port 0
+- uid_1869:
+    ports:
+      0: uid_1868 port 1
+- uid_1870:
+    ports:
+      0: uid_1830 port 4
+- uid_1871:
+    ports:
+      0: uid_1872 port 2
+- uid_1872:
+    ports:
+      0: uid_1864 port 4
+      1: uid_1830 port 6
+      2: uid_1871 port 0
+- uid_1875:
+    ports:
+      0: uid_1889 port 1
+      1: uid_1876 port 0
+      2: uid_1877 port 0
+      3: uid_631 port 0
+      4: uid_3928 port 7
+      5: uid_3930 port 19
+- uid_1876:
+    ports:
+      0: uid_1875 port 1
+- uid_1877:
+    ports:
+      0: uid_1875 port 2
+- uid_1881:
+    ports:
+      0: uid_1913 port 3
+- uid_1889:
+    ports:
+      0: uid_4305 port 0
+      1: uid_1875 port 0
+      2: uid_1891 port 0
+- uid_1891:
+    ports:
+      0: uid_1889 port 2
+- uid_1894:
+    ports:
+      0: uid_1791 port 3
+- uid_1897:
+    ports:
+      0: uid_1898 port 0
+      1: uid_1899 port 0
+      2: uid_1900 port 0
+      3: uid_1901 port 0
+      4: uid_4221 port 1
+      5: uid_1790 port 4
+- uid_1898:
+    ports:
+      0: uid_1897 port 0
+- uid_1899:
+    ports:
+      0: uid_1897 port 1
+- uid_1900:
+    ports:
+      0: uid_1897 port 2
+- uid_1901:
+    ports:
+      0: uid_1897 port 3
+- uid_1904:
+    ports:
+      0: uid_1905 port 0
+- uid_1905:
+    ports:
+      0: uid_1904 port 0
+      1: uid_3927 port 7
+- uid_1907:
+    ports:
+      0: uid_4222 port 1
+- uid_1912:
+    ports:
+      0: uid_4352 port 0
+      1: uid_1913 port 2
+      2: uid_1928 port 0
+- uid_1913:
+    ports:
+      0: uid_1920 port 0
+      1: uid_3927 port 6
+      2: uid_1912 port 1
+      3: uid_1881 port 0
+      4: uid_1915 port 0
+      5: uid_1916 port 0
+      6: uid_1917 port 0
+      7: uid_1918 port 0
+      8: uid_1919 port 0
+- uid_1914:
+    ports:
+      0: uid_1915 port 1
+- uid_1915:
+    ports:
+      0: uid_1913 port 4
+      1: uid_1914 port 0
+- uid_1916:
+    ports:
+      0: uid_1913 port 5
+- uid_1917:
+    ports:
+      0: uid_1913 port 6
+- uid_1918:
+    ports:
+      0: uid_1913 port 7
+- uid_1919:
+    ports:
+      0: uid_1913 port 8
+- uid_1920:
+    ports:
+      0: uid_1913 port 0
+- uid_1922:
+    ports:
+      0: uid_1924 port 0
+- uid_1923:
+    ports:
+      0: uid_1924 port 1
+- uid_1924:
+    ports:
+      0: uid_1922 port 0
+      1: uid_1923 port 0
+      2: uid_4222 port 2
+- uid_1926:
+    ports:
+      0: uid_4221 port 3
+- uid_1927:
+    ports:
+      0: uid_1928 port 2
+- uid_1928:
+    ports:
+      0: uid_1912 port 2
+      1: uid_1929 port 0
+      2: uid_1927 port 0
+- uid_1929:
+    ports:
+      0: uid_1928 port 1
+- uid_327:
+    ports:
+      0: uid_4223 port 13
+- uid_3607:
+    ports:
+      0: uid_4302 port 2
+- uid_3911:
+    ports:
+      0: uid_1791 port 4
+- uid_3912:
+    ports:
+      0: uid_3913 port 0
+      1: uid_1830 port 2
+- uid_3913:
+    ports:
+      0: uid_3912 port 0
+- uid_3914:
+    ports:
+      0: uid_3917 port 1
+- uid_3915:
+    ports:
+      0: uid_3917 port 2
+- uid_3917:
+    ports:
+      0: uid_1864 port 2
+      1: uid_3914 port 0
+      2: uid_3915 port 0
+      3: uid_1830 port 3
+- uid_3918:
+    ports:
+      0: uid_3919 port 1
+- uid_3919:
+    ports:
+      0: uid_1864 port 3
+      1: uid_3918 port 0
+      2: uid_1830 port 5
+- uid_3921:
+    ports:
+      0: uid_3973 port 9
+      1: uid_3943 port 10
+      2: uid_3977 port 44
+      3: uid_3946 port 8
+      4: uid_781 port 8
+      5: uid_3930 port 18
+- uid_3922:
+    ports:
+      0: uid_3923 port 0
+      1: uid_3924 port 0
+      2: uid_3925 port 0
+      3: uid_3927 port 8
+- uid_3923:
+    ports:
+      0: uid_3922 port 0
+- uid_3924:
+    ports:
+      0: uid_3922 port 1
+- uid_3925:
+    ports:
+      0: uid_3922 port 2
+- uid_3926:
+    ports:
+      0: uid_4259 port 1
+      1: uid_3973 port 10
+      2: uid_3943 port 11
+      3: uid_3946 port 9
+      4: uid_3983 port 1
+      5: uid_3929 port 7
+      6: uid_3930 port 20
+- uid_3927:
+    ports:
+      0: uid_1827 port 1
+      1: uid_3973 port 11
+      2: uid_3943 port 12
+      3: uid_4361 port 1
+      4: uid_3946 port 10
+      5: uid_3986 port 1
+      6: uid_1913 port 1
+      7: uid_1905 port 1
+      8: uid_3922 port 3
+      9: uid_3956 port 4
+      10: uid_3929 port 8
+      11: uid_3928 port 6
+      12: uid_1817 port 1
+      13: uid_3930 port 21
+      14: uid_1822 port 1
+- uid_3928:
+    ports:
+      0: uid_3968 port 0
+      1: uid_3973 port 12
+      2: uid_3942 port 4
+      3: uid_3943 port 13
+      4: uid_3945 port 4
+      5: uid_3946 port 11
+      6: uid_3927 port 11
+      7: uid_1875 port 4
+      8: uid_3958 port 4
+      9: uid_3977 port 13
+      10: uid_1784 port 15
+      11: uid_798 port 3
+- uid_3929:
+    ports:
+      0: uid_3968 port 1
+      1: uid_3973 port 13
+      2: uid_3974 port 5
+      3: uid_3975 port 5
+      4: uid_3976 port 6
+      5: uid_3977 port 14
+      6: uid_798 port 4
+      7: uid_3926 port 5
+      8: uid_3927 port 10
+      9: uid_3931 port 6
+      10: uid_3933 port 6
+      11: uid_3934 port 6
+      12: uid_3937 port 5
+      13: uid_3938 port 5
+      14: uid_3939 port 5
+      15: uid_3940 port 4
+      16: uid_3941 port 6
+      17: uid_3942 port 5
+      18: uid_3945 port 5
+      19: uid_3948 port 5
+      20: uid_3949 port 0
+      21: uid_3951 port 5
+      22: uid_3952 port 4
+      23: uid_3953 port 4
+      24: uid_3955 port 4
+      25: uid_3957 port 4
+      26: uid_1784 port 17
+      27: uid_3961 port 5
+      28: uid_3962 port 4
+      29: uid_3963 port 4
+      30: uid_3965 port 6
+- uid_3930:
+    ports:
+      0: uid_3968 port 2
+      1: uid_1793 port 16
+      2: uid_3970 port 0
+      3: uid_3971 port 0
+      4: uid_3972 port 0
+      5: uid_3973 port 14
+      6: uid_3974 port 6
+      7: uid_3975 port 6
+      8: uid_3976 port 7
+      9: uid_3978 port 5
+      10: uid_3979 port 2
+      11: uid_3980 port 5
+      12: uid_3981 port 5
+      13: uid_798 port 2
+      14: uid_3969 port 0
+      15: uid_3961 port 6
+      16: uid_1341 port 0
+      17: uid_1784 port 18
+      18: uid_3921 port 5
+      19: uid_1875 port 5
+      20: uid_3926 port 6
+      21: uid_3927 port 13
+      22: uid_3931 port 7
+      23: uid_3932 port 5
+      24: uid_3933 port 7
+      25: uid_3934 port 7
+      26: uid_3935 port 3
+      27: uid_3937 port 6
+      28: uid_3938 port 6
+      29: uid_3939 port 6
+      30: uid_3940 port 5
+      31: uid_3941 port 7
+      32: uid_3942 port 6
+      33: uid_3945 port 6
+      34: uid_3948 port 6
+      35: uid_3949 port 2
+      36: uid_3951 port 6
+      37: uid_3952 port 5
+      38: uid_3953 port 1
+      39: uid_3954 port 3
+      40: uid_3955 port 5
+      41: uid_3957 port 5
+      42: uid_3958 port 5
+      43: uid_3959 port 0
+      44: uid_3960 port 1
+      45: uid_1785 port 21
+      46: uid_3962 port 5
+      47: uid_3963 port 5
+      48: uid_3964 port 0
+      49: uid_3965 port 7
+      50: uid_3966 port 0
+      51: uid_3967 port 0
+- uid_3931:
+    ports:
+      0: uid_3973 port 15
+      1: uid_3943 port 14
+      2: uid_3977 port 15
+      3: uid_3946 port 12
+      4: uid_781 port 9
+      5: uid_3956 port 5
+      6: uid_3929 port 9
+      7: uid_3930 port 22
+- uid_3932:
+    ports:
+      0: uid_3973 port 16
+      1: uid_3943 port 15
+      2: uid_3977 port 16
+      3: uid_3946 port 13
+      4: uid_781 port 10
+      5: uid_3930 port 23
+- uid_3933:
+    ports:
+      0: uid_3973 port 17
+      1: uid_3943 port 16
+      2: uid_3977 port 17
+      3: uid_3946 port 14
+      4: uid_781 port 7
+      5: uid_3956 port 6
+      6: uid_3929 port 10
+      7: uid_3930 port 24
+- uid_3934:
+    ports:
+      0: uid_3973 port 18
+      1: uid_3943 port 17
+      2: uid_3977 port 18
+      3: uid_3946 port 15
+      4: uid_781 port 12
+      5: uid_3956 port 7
+      6: uid_3929 port 11
+      7: uid_3930 port 25
+- uid_3935:
+    ports:
+      0: uid_3977 port 19
+      1: uid_3946 port 16
+      2: uid_3943 port 18
+      3: uid_3930 port 26
+      4: uid_3973 port 19
+- uid_3937:
+    ports:
+      0: uid_3973 port 20
+      1: uid_3943 port 19
+      2: uid_3977 port 20
+      3: uid_3946 port 17
+      4: uid_3956 port 8
+      5: uid_3929 port 12
+      6: uid_3930 port 27
+- uid_3938:
+    ports:
+      0: uid_3973 port 21
+      1: uid_3943 port 20
+      2: uid_3977 port 21
+      3: uid_3946 port 18
+      4: uid_3956 port 9
+      5: uid_3929 port 13
+      6: uid_3930 port 28
+- uid_3939:
+    ports:
+      0: uid_3973 port 22
+      1: uid_3943 port 21
+      2: uid_3977 port 22
+      3: uid_3946 port 19
+      4: uid_3956 port 10
+      5: uid_3929 port 14
+      6: uid_3930 port 29
+- uid_3940:
+    ports:
+      0: uid_3973 port 23
+      1: uid_3943 port 22
+      2: uid_3977 port 23
+      3: uid_3956 port 11
+      4: uid_3929 port 15
+      5: uid_3930 port 30
+- uid_3941:
+    ports:
+      0: uid_3973 port 24
+      1: uid_3943 port 23
+      2: uid_3977 port 24
+      3: uid_3946 port 20
+      4: uid_781 port 0
+      5: uid_3956 port 12
+      6: uid_3929 port 16
+      7: uid_3930 port 31
+- uid_3942:
+    ports:
+      0: uid_3973 port 25
+      1: uid_3977 port 9
+      2: uid_3946 port 21
+      3: uid_3956 port 13
+      4: uid_3928 port 2
+      5: uid_3929 port 17
+      6: uid_3930 port 32
+- uid_3943:
+    ports:
+      0: uid_3973 port 26
+      1: uid_3974 port 1
+      2: uid_3975 port 1
+      3: uid_3976 port 1
+      4: uid_3977 port 26
+      5: uid_3978 port 1
+      6: uid_3979 port 4
+      7: uid_3980 port 1
+      8: uid_3981 port 1
+      9: uid_1341 port 1
+      10: uid_3921 port 1
+      11: uid_3926 port 2
+      12: uid_3927 port 2
+      13: uid_3928 port 3
+      14: uid_3931 port 1
+      15: uid_3932 port 1
+      16: uid_3933 port 1
+      17: uid_3934 port 1
+      18: uid_3935 port 2
+      19: uid_3937 port 1
+      20: uid_3938 port 1
+      21: uid_3939 port 1
+      22: uid_3940 port 1
+      23: uid_3941 port 1
+      24: uid_3945 port 1
+      25: uid_3948 port 1
+      26: uid_3949 port 3
+      27: uid_3951 port 1
+      28: uid_3952 port 1
+      29: uid_3953 port 2
+      30: uid_3954 port 4
+      31: uid_3955 port 1
+      32: uid_3957 port 1
+      33: uid_3958 port 1
+      34: uid_3961 port 1
+      35: uid_3962 port 1
+      36: uid_3963 port 1
+      37: uid_3965 port 1
+- uid_3945:
+    ports:
+      0: uid_3973 port 27
+      1: uid_3943 port 24
+      2: uid_3977 port 27
+      3: uid_3956 port 14
+      4: uid_3928 port 4
+      5: uid_3929 port 18
+      6: uid_3930 port 33
+- uid_3946:
+    ports:
+      0: uid_3973 port 28
+      1: uid_3974 port 3
+      2: uid_3975 port 3
+      3: uid_3976 port 3
+      4: uid_3977 port 28
+      5: uid_3978 port 3
+      6: uid_3980 port 3
+      7: uid_3981 port 3
+      8: uid_3921 port 3
+      9: uid_3926 port 3
+      10: uid_3927 port 4
+      11: uid_3928 port 5
+      12: uid_3931 port 3
+      13: uid_3932 port 3
+      14: uid_3933 port 3
+      15: uid_3934 port 3
+      16: uid_3935 port 1
+      17: uid_3937 port 3
+      18: uid_3938 port 3
+      19: uid_3939 port 3
+      20: uid_3941 port 3
+      21: uid_3942 port 2
+      22: uid_3948 port 3
+      23: uid_3949 port 1
+      24: uid_3951 port 3
+      25: uid_3954 port 2
+      26: uid_3955 port 3
+      27: uid_3958 port 3
+      28: uid_3961 port 3
+      29: uid_3962 port 3
+      30: uid_3965 port 3
+- uid_3947:
+    ports:
+      0: uid_3977 port 29
+      1: uid_3973 port 29
+- uid_3948:
+    ports:
+      0: uid_3973 port 30
+      1: uid_3943 port 25
+      2: uid_3977 port 30
+      3: uid_3946 port 22
+      4: uid_3956 port 15
+      5: uid_3929 port 19
+      6: uid_3930 port 34
+- uid_3949:
+    ports:
+      0: uid_3929 port 20
+      1: uid_3946 port 23
+      2: uid_3930 port 35
+      3: uid_3943 port 26
+- uid_3951:
+    ports:
+      0: uid_3973 port 31
+      1: uid_3943 port 27
+      2: uid_3977 port 31
+      3: uid_3946 port 24
+      4: uid_3956 port 16
+      5: uid_3929 port 21
+      6: uid_3930 port 36
+- uid_3952:
+    ports:
+      0: uid_3973 port 32
+      1: uid_3943 port 28
+      2: uid_3977 port 32
+      3: uid_3956 port 17
+      4: uid_3929 port 22
+      5: uid_3930 port 37
+- uid_3953:
+    ports:
+      0: uid_3977 port 33
+      1: uid_3930 port 38
+      2: uid_3943 port 29
+      3: uid_3956 port 18
+      4: uid_3929 port 23
+- uid_3954:
+    ports:
+      0: uid_3973 port 33
+      1: uid_3977 port 34
+      2: uid_3946 port 25
+      3: uid_3930 port 39
+      4: uid_3943 port 30
+- uid_3955:
+    ports:
+      0: uid_3973 port 34
+      1: uid_3943 port 31
+      2: uid_3977 port 35
+      3: uid_3946 port 26
+      4: uid_3929 port 24
+      5: uid_3930 port 40
+- uid_3956:
+    ports:
+      0: uid_3973 port 35
+      1: uid_3975 port 4
+      2: uid_3976 port 5
+      3: uid_3977 port 36
+      4: uid_3927 port 9
+      5: uid_3931 port 5
+      6: uid_3933 port 5
+      7: uid_3934 port 5
+      8: uid_3937 port 4
+      9: uid_3938 port 4
+      10: uid_3939 port 4
+      11: uid_3940 port 3
+      12: uid_3941 port 5
+      13: uid_3942 port 3
+      14: uid_3945 port 3
+      15: uid_3948 port 4
+      16: uid_3951 port 4
+      17: uid_3952 port 3
+      18: uid_3953 port 3
+      19: uid_3957 port 3
+      20: uid_3961 port 4
+      21: uid_3963 port 3
+      22: uid_3965 port 5
+- uid_3957:
+    ports:
+      0: uid_3973 port 36
+      1: uid_3943 port 32
+      2: uid_3977 port 37
+      3: uid_3956 port 19
+      4: uid_3929 port 25
+      5: uid_3930 port 41
+- uid_3958:
+    ports:
+      0: uid_3973 port 37
+      1: uid_3943 port 33
+      2: uid_3977 port 38
+      3: uid_3946 port 27
+      4: uid_3928 port 8
+      5: uid_3930 port 42
+- uid_3959:
+    ports:
+      0: uid_3930 port 43
+- uid_3960:
+    ports:
+      0: uid_3977 port 39
+      1: uid_3930 port 44
+      2: uid_3973 port 38
+- uid_3961:
+    ports:
+      0: uid_3973 port 39
+      1: uid_3943 port 34
+      2: uid_3977 port 40
+      3: uid_3946 port 28
+      4: uid_3956 port 20
+      5: uid_3929 port 27
+      6: uid_3930 port 15
+- uid_3962:
+    ports:
+      0: uid_3973 port 40
+      1: uid_3943 port 35
+      2: uid_3977 port 41
+      3: uid_3946 port 29
+      4: uid_3929 port 28
+      5: uid_3930 port 46
+- uid_3963:
+    ports:
+      0: uid_3973 port 41
+      1: uid_3943 port 36
+      2: uid_3977 port 42
+      3: uid_3956 port 21
+      4: uid_3929 port 29
+      5: uid_3930 port 47
+- uid_3964:
+    ports:
+      0: uid_3930 port 48
+- uid_3965:
+    ports:
+      0: uid_3973 port 42
+      1: uid_3943 port 37
+      2: uid_3977 port 43
+      3: uid_3946 port 30
+      4: uid_781 port 11
+      5: uid_3956 port 22
+      6: uid_3929 port 30
+      7: uid_3930 port 49
+- uid_3966:
+    ports:
+      0: uid_3930 port 50
+- uid_3967:
+    ports:
+      0: uid_3930 port 51
+- uid_3968:
+    ports:
+      0: uid_3928 port 0
+      1: uid_3929 port 0
+      2: uid_3930 port 0
+- uid_3969:
+    ports:
+      0: uid_3930 port 14
+- uid_3970:
+    ports:
+      0: uid_3930 port 2
+- uid_3971:
+    ports:
+      0: uid_3930 port 3
+- uid_3972:
+    ports:
+      0: uid_3930 port 4
+- uid_3973:
+    ports:
+      0: uid_3974 port 0
+      1: uid_3975 port 0
+      2: uid_3976 port 0
+      3: uid_3977 port 0
+      4: uid_3978 port 0
+      5: uid_3979 port 0
+      6: uid_3980 port 0
+      7: uid_781 port 13
+      8: uid_3981 port 0
+      9: uid_3921 port 0
+      10: uid_3926 port 1
+      11: uid_3927 port 1
+      12: uid_3928 port 1
+      13: uid_3929 port 1
+      14: uid_3930 port 5
+      15: uid_3931 port 0
+      16: uid_3932 port 0
+      17: uid_3933 port 0
+      18: uid_3934 port 0
+      19: uid_3935 port 4
+      20: uid_3937 port 0
+      21: uid_3938 port 0
+      22: uid_3939 port 0
+      23: uid_3940 port 0
+      24: uid_3941 port 0
+      25: uid_3942 port 0
+      26: uid_3943 port 0
+      27: uid_3945 port 0
+      28: uid_3946 port 0
+      29: uid_3947 port 1
+      30: uid_3948 port 0
+      31: uid_3951 port 0
+      32: uid_3952 port 0
+      33: uid_3954 port 0
+      34: uid_3955 port 0
+      35: uid_3956 port 0
+      36: uid_3957 port 0
+      37: uid_3958 port 0
+      38: uid_3960 port 2
+      39: uid_3961 port 0
+      40: uid_3962 port 0
+      41: uid_3963 port 0
+      42: uid_3965 port 0
+- uid_3974:
+    ports:
+      0: uid_3973 port 0
+      1: uid_3943 port 1
+      2: uid_3977 port 1
+      3: uid_3946 port 1
+      4: uid_781 port 1
+      5: uid_3929 port 2
+      6: uid_3930 port 6
+- uid_3975:
+    ports:
+      0: uid_3973 port 1
+      1: uid_3943 port 2
+      2: uid_3977 port 2
+      3: uid_3946 port 2
+      4: uid_3956 port 1
+      5: uid_3929 port 3
+      6: uid_3930 port 7
+- uid_3976:
+    ports:
+      0: uid_3973 port 2
+      1: uid_3943 port 3
+      2: uid_3977 port 3
+      3: uid_3946 port 3
+      4: uid_781 port 2
+      5: uid_3956 port 2
+      6: uid_3929 port 4
+      7: uid_3930 port 8
+- uid_3977:
+    ports:
+      0: uid_3973 port 3
+      1: uid_3974 port 2
+      2: uid_3975 port 2
+      3: uid_3976 port 2
+      4: uid_3978 port 2
+      5: uid_3979 port 1
+      6: uid_3980 port 2
+      7: uid_3981 port 2
+      8: uid_798 port 1
+      9: uid_3942 port 1
+      10: uid_4304 port 2
+      11: uid_4305 port 4
+      12: uid_4306 port 0
+      13: uid_3928 port 9
+      14: uid_3929 port 5
+      15: uid_3931 port 2
+      16: uid_3932 port 2
+      17: uid_3933 port 2
+      18: uid_3934 port 2
+      19: uid_3935 port 0
+      20: uid_3937 port 2
+      21: uid_3938 port 2
+      22: uid_3939 port 2
+      23: uid_3940 port 2
+      24: uid_3941 port 2
+      25: uid_4326 port 0
+      26: uid_3943 port 4
+      27: uid_3945 port 2
+      28: uid_3946 port 4
+      29: uid_3947 port 0
+      30: uid_3948 port 2
+      31: uid_3951 port 2
+      32: uid_3952 port 2
+      33: uid_3953 port 0
+      34: uid_3954 port 1
+      35: uid_3955 port 2
+      36: uid_3956 port 3
+      37: uid_3957 port 2
+      38: uid_3958 port 2
+      39: uid_3960 port 0
+      40: uid_3961 port 2
+      41: uid_3962 port 2
+      42: uid_3963 port 2
+      43: uid_3965 port 2
+      44: uid_3921 port 2
+- uid_3978:
+    ports:
+      0: uid_3973 port 4
+      1: uid_3943 port 5
+      2: uid_3977 port 4
+      3: uid_3946 port 5
+      4: uid_781 port 3
+      5: uid_3930 port 9
+- uid_3979:
+    ports:
+      0: uid_3973 port 5
+      1: uid_3977 port 5
+      2: uid_3930 port 10
+      3: uid_781 port 4
+      4: uid_3943 port 6
+- uid_3980:
+    ports:
+      0: uid_3973 port 6
+      1: uid_3943 port 7
+      2: uid_3977 port 6
+      3: uid_3946 port 6
+      4: uid_781 port 5
+      5: uid_3930 port 11
+- uid_3981:
+    ports:
+      0: uid_3973 port 8
+      1: uid_3943 port 8
+      2: uid_3977 port 7
+      3: uid_3946 port 7
+      4: uid_781 port 6
+      5: uid_3930 port 12
+- uid_3982:
+    ports:
+      0: uid_3983 port 0
+- uid_3983:
+    ports:
+      0: uid_3982 port 0
+      1: uid_3926 port 4
+- uid_3985:
+    ports:
+      0: uid_3986 port 0
+- uid_3986:
+    ports:
+      0: uid_3985 port 0
+      1: uid_3927 port 5
+- uid_3987:
+    ports:
+      0: uid_3988 port 0
+- uid_3988:
+    ports:
+      0: uid_3987 port 0
+      1: uid_3989 port 0
+      2: uid_1790 port 6
+- uid_3989:
+    ports:
+      0: uid_3988 port 1
+- uid_3990:
+    ports:
+      0: uid_3991 port 0
+- uid_3991:
+    ports:
+      0: uid_3990 port 0
+      1: uid_1790 port 8
+- uid_3992:
+    ports:
+      0: uid_3993 port 0
+      1: uid_4266 port 1
+      2: uid_3995 port 0
+      3: uid_3994 port 0
+- uid_3993:
+    ports:
+      0: uid_3992 port 0
+- uid_3994:
+    ports:
+      0: uid_3992 port 3
+- uid_3995:
+    ports:
+      0: uid_3992 port 2
+- uid_3996:
+    ports:
+      0: uid_3997 port 1
+- uid_3997:
+    ports:
+      0: uid_1002 port 0
+      1: uid_3996 port 0
+      2: uid_1790 port 11
+- uid_4215:
+    ports:
+      0: uid_4217 port 20
+- uid_4216:
+    ports:
+      0: uid_4224 port 7
+      1: uid_4226 port 0
+      2: uid_4227 port 0
+      3: uid_4228 port 0
+      4: uid_4229 port 0
+      5: uid_4235 port 0
+      6: uid_4238 port 0
+      7: uid_4239 port 2
+      8: uid_4242 port 0
+      9: uid_4243 port 0
+      10: uid_1784 port 16
+      11: uid_1785 port 22
+      12: uid_4218 port 11
+      13: uid_4219 port 0
+      14: uid_4220 port 0
+      15: uid_4223 port 14
+- uid_4217:
+    ports:
+      0: uid_4224 port 8
+      1: uid_4225 port 0
+      2: uid_4226 port 1
+      3: uid_4227 port 1
+      4: uid_4228 port 1
+      5: uid_4229 port 1
+      6: uid_4230 port 1
+      7: uid_4231 port 0
+      8: uid_4232 port 0
+      9: uid_4233 port 0
+      10: uid_4234 port 0
+      11: uid_4235 port 1
+      12: uid_4236 port 0
+      13: uid_4237 port 0
+      14: uid_4238 port 1
+      15: uid_4239 port 3
+      16: uid_4242 port 1
+      17: uid_4243 port 1
+      18: uid_4244 port 0
+      19: uid_4245 port 0
+      20: uid_4215 port 0
+      21: uid_1785 port 23
+      22: uid_4218 port 12
+      23: uid_4219 port 1
+      24: uid_4220 port 1
+      25: uid_4222 port 0
+      26: uid_4223 port 15
+- uid_4218:
+    ports:
+      0: uid_4224 port 9
+      1: uid_4227 port 2
+      2: uid_4228 port 2
+      3: uid_4229 port 2
+      4: uid_4231 port 1
+      5: uid_4238 port 2
+      6: uid_4239 port 4
+      7: uid_4242 port 2
+      8: uid_4243 port 2
+      9: uid_4244 port 1
+      10: uid_4245 port 1
+      11: uid_4216 port 12
+      12: uid_4217 port 22
+      13: uid_4223 port 16
+- uid_4219:
+    ports:
+      0: uid_4216 port 13
+      1: uid_4217 port 23
+      2: uid_4223 port 17
+- uid_4220:
+    ports:
+      0: uid_4216 port 14
+      1: uid_4217 port 24
+      2: uid_4228 port 3
+      3: uid_4229 port 3
+      4: uid_4223 port 18
+- uid_4221:
+    ports:
+      0: uid_4224 port 10
+      1: uid_1897 port 4
+      2: uid_1868 port 0
+      3: uid_1926 port 0
+      4: uid_4223 port 19
+- uid_4222:
+    ports:
+      0: uid_4217 port 25
+      1: uid_1907 port 0
+      2: uid_1924 port 2
+      3: uid_1814 port 0
+      4: uid_4223 port 20
+- uid_4223:
+    ports:
+      0: uid_1793 port 21
+      1: uid_4226 port 4
+      2: uid_4227 port 4
+      3: uid_4228 port 4
+      4: uid_4229 port 4
+      5: uid_4230 port 2
+      6: uid_4231 port 2
+      7: uid_4235 port 2
+      8: uid_4238 port 3
+      9: uid_4239 port 5
+      10: uid_4240 port 1
+      11: uid_4242 port 4
+      12: uid_4243 port 4
+      13: uid_327 port 0
+      14: uid_4216 port 15
+      15: uid_4217 port 26
+      16: uid_4218 port 13
+      17: uid_4219 port 2
+      18: uid_4220 port 4
+      19: uid_4221 port 4
+      20: uid_4222 port 4
+- uid_4224:
+    ports:
+      0: uid_4226 port 2
+      1: uid_4227 port 3
+      2: uid_4230 port 0
+      3: uid_4239 port 0
+      4: uid_4240 port 0
+      5: uid_4242 port 3
+      6: uid_4243 port 3
+      7: uid_4216 port 0
+      8: uid_4217 port 0
+      9: uid_4218 port 0
+      10: uid_4221 port 0
+- uid_4225:
+    ports:
+      0: uid_4217 port 1
+- uid_4226:
+    ports:
+      0: uid_4216 port 1
+      1: uid_4217 port 2
+      2: uid_4224 port 0
+      3: uid_4239 port 1
+      4: uid_4223 port 1
+- uid_4227:
+    ports:
+      0: uid_4216 port 2
+      1: uid_4217 port 3
+      2: uid_4218 port 1
+      3: uid_4224 port 1
+      4: uid_4223 port 2
+- uid_4228:
+    ports:
+      0: uid_4216 port 3
+      1: uid_4217 port 4
+      2: uid_4218 port 2
+      3: uid_4220 port 2
+      4: uid_4223 port 3
+- uid_4229:
+    ports:
+      0: uid_4216 port 4
+      1: uid_4217 port 5
+      2: uid_4218 port 3
+      3: uid_4220 port 3
+      4: uid_4223 port 4
+- uid_4230:
+    ports:
+      0: uid_4224 port 2
+      1: uid_4217 port 6
+      2: uid_4223 port 5
+- uid_4231:
+    ports:
+      0: uid_4217 port 7
+      1: uid_4218 port 4
+      2: uid_4223 port 6
+- uid_4232:
+    ports:
+      0: uid_4217 port 8
+- uid_4233:
+    ports:
+      0: uid_4217 port 9
+- uid_4234:
+    ports:
+      0: uid_4217 port 10
+- uid_4235:
+    ports:
+      0: uid_4216 port 5
+      1: uid_4217 port 11
+      2: uid_4223 port 7
+- uid_4236:
+    ports:
+      0: uid_4217 port 12
+- uid_4237:
+    ports:
+      0: uid_4217 port 13
+- uid_4238:
+    ports:
+      0: uid_4216 port 6
+      1: uid_4217 port 14
+      2: uid_4218 port 5
+      3: uid_4223 port 8
+- uid_4239:
+    ports:
+      0: uid_4224 port 3
+      1: uid_4226 port 3
+      2: uid_4216 port 7
+      3: uid_4217 port 15
+      4: uid_4218 port 6
+      5: uid_4223 port 9
+- uid_4240:
+    ports:
+      0: uid_4224 port 4
+      1: uid_4223 port 10
+- uid_4242:
+    ports:
+      0: uid_4216 port 8
+      1: uid_4217 port 16
+      2: uid_4218 port 7
+      3: uid_4224 port 5
+      4: uid_4223 port 11
+- uid_4243:
+    ports:
+      0: uid_4216 port 9
+      1: uid_4217 port 17
+      2: uid_4218 port 8
+      3: uid_4224 port 6
+      4: uid_4223 port 12
+- uid_4244:
+    ports:
+      0: uid_4217 port 18
+      1: uid_4218 port 9
+- uid_4245:
+    ports:
+      0: uid_4217 port 19
+      1: uid_4218 port 10
+- uid_4246:
+    ports:
+      0: uid_1790 port 7
+- uid_4248:
+    ports:
+      0: uid_4249 port 0
+      1: uid_1790 port 9
+- uid_4249:
+    ports:
+      0: uid_4248 port 0
+- uid_4253:
+    ports:
+      0: uid_4254 port 0
+- uid_4254:
+    ports:
+      0: uid_4253 port 0
+      1: uid_1790 port 12
+- uid_4255:
+    ports:
+      0: uid_4256 port 2
+- uid_4256:
+    ports:
+      0: uid_1864 port 0
+      1: uid_1830 port 0
+      2: uid_4255 port 0
+- uid_4258:
+    ports:
+      0: uid_4259 port 0
+- uid_4259:
+    ports:
+      0: uid_4258 port 0
+      1: uid_3926 port 0
+- uid_4265:
+    ports:
+      0: uid_1829 port 1
+- uid_4266:
+    ports:
+      0: uid_4304 port 3
+      1: uid_3992 port 1
+      2: uid_4274 port 0
+      3: uid_4315 port 1
+      4: uid_4310 port 1
+- uid_4268:
+    ports:
+      0: uid_4288 port 1
+      1: uid_4291 port 1
+      2: uid_4274 port 2
+      3: uid_4298 port 1
+      4: uid_4299 port 1
+      5: uid_4301 port 1
+      6: uid_4302 port 1
+      7: uid_4271 port 1
+      8: uid_4273 port 1
+      9: uid_4306 port 1
+      10: uid_4275 port 1
+      11: uid_4276 port 1
+      12: uid_4283 port 1
+      13: uid_4279 port 1
+      14: uid_4280 port 1
+      15: uid_4281 port 1
+      16: uid_4303 port 1
+      17: uid_4284 port 0
+      18: uid_4285 port 1
+      19: uid_4286 port 1
+- uid_4270:
+    ports:
+      0: uid_4306 port 2
+      1: uid_4314 port 0
+- uid_4271:
+    ports:
+      0: uid_4306 port 3
+      1: uid_4268 port 7
+- uid_4273:
+    ports:
+      0: uid_4306 port 4
+      1: uid_4268 port 8
+- uid_4274:
+    ports:
+      0: uid_4266 port 2
+      1: uid_4299 port 0
+      2: uid_4268 port 2
+      3: uid_4304 port 4
+      4: uid_4305 port 5
+      5: uid_4306 port 5
+- uid_4275:
+    ports:
+      0: uid_4306 port 6
+      1: uid_4268 port 10
+- uid_4276:
+    ports:
+      0: uid_4306 port 7
+      1: uid_4268 port 11
+- uid_4278:
+    ports:
+      0: uid_4306 port 8
+- uid_4279:
+    ports:
+      0: uid_4306 port 9
+      1: uid_4268 port 13
+- uid_4280:
+    ports:
+      0: uid_4306 port 10
+      1: uid_4268 port 14
+- uid_4281:
+    ports:
+      0: uid_4306 port 11
+      1: uid_4268 port 15
+- uid_4283:
+    ports:
+      0: uid_4306 port 12
+      1: uid_4268 port 12
+- uid_4284:
+    ports:
+      0: uid_4268 port 17
+- uid_4285:
+    ports:
+      0: uid_4306 port 13
+      1: uid_4268 port 18
+- uid_4286:
+    ports:
+      0: uid_4306 port 14
+      1: uid_4268 port 19
+- uid_4287:
+    ports:
+      0: uid_4306 port 15
+- uid_4288:
+    ports:
+      0: uid_4306 port 16
+      1: uid_4268 port 0
+- uid_4291:
+    ports:
+      0: uid_4306 port 17
+      1: uid_4268 port 1
+- uid_4292:
+    ports:
+      0: uid_4305 port 1
+      1: uid_4306 port 18
+- uid_4297:
+    ports:
+      0: uid_4306 port 20
+- uid_4298:
+    ports:
+      0: uid_4306 port 21
+      1: uid_4268 port 3
+- uid_4299:
+    ports:
+      0: uid_4274 port 1
+      1: uid_4268 port 4
+      2: uid_4306 port 22
+- uid_4301:
+    ports:
+      0: uid_4306 port 23
+      1: uid_4268 port 5
+- uid_4302:
+    ports:
+      0: uid_4306 port 24
+      1: uid_4268 port 6
+      2: uid_3607 port 0
+- uid_4303:
+    ports:
+      0: uid_4306 port 25
+      1: uid_4268 port 16
+- uid_4304:
+    ports:
+      0: uid_4324 port 9
+      1: uid_1863 port 26
+      2: uid_3977 port 10
+      3: uid_4266 port 0
+      4: uid_4274 port 3
+      5: uid_4310 port 0
+      6: uid_4311 port 0
+      7: uid_4312 port 0
+      8: uid_4315 port 0
+- uid_4305:
+    ports:
+      0: uid_1889 port 0
+      1: uid_4292 port 0
+      2: uid_4325 port 9
+      3: uid_1863 port 27
+      4: uid_3977 port 11
+      5: uid_4274 port 4
+      6: uid_4308 port 0
+      7: uid_4324 port 10
+      8: uid_4317 port 0
+- uid_4306:
+    ports:
+      0: uid_3977 port 12
+      1: uid_4268 port 9
+      2: uid_4270 port 0
+      3: uid_4271 port 0
+      4: uid_4273 port 0
+      5: uid_4274 port 5
+      6: uid_4275 port 0
+      7: uid_4276 port 0
+      8: uid_4278 port 0
+      9: uid_4279 port 0
+      10: uid_4280 port 0
+      11: uid_4281 port 0
+      12: uid_4283 port 0
+      13: uid_4285 port 0
+      14: uid_4286 port 0
+      15: uid_4287 port 0
+      16: uid_4288 port 0
+      17: uid_4291 port 0
+      18: uid_4292 port 1
+      19: uid_1863 port 28
+      20: uid_4297 port 0
+      21: uid_4298 port 0
+      22: uid_4299 port 2
+      23: uid_4301 port 0
+      24: uid_4302 port 0
+      25: uid_4303 port 0
+      26: uid_4307 port 0
+      27: uid_4308 port 1
+      28: uid_4310 port 2
+      29: uid_4311 port 1
+      30: uid_4312 port 1
+      31: uid_4313 port 0
+      32: uid_4315 port 2
+      33: uid_4317 port 1
+      34: uid_4318 port 0
+      35: uid_4319 port 0
+      36: uid_4320 port 0
+      37: uid_4322 port 0
+      38: uid_4324 port 11
+      39: uid_4325 port 10
+      40: uid_1770 port 0
+- uid_4307:
+    ports:
+      0: uid_4306 port 26
+- uid_4308:
+    ports:
+      0: uid_4305 port 6
+      1: uid_4306 port 27
+- uid_4310:
+    ports:
+      0: uid_4304 port 5
+      1: uid_4266 port 4
+      2: uid_4306 port 28
+- uid_4311:
+    ports:
+      0: uid_4304 port 6
+      1: uid_4306 port 29
+- uid_4312:
+    ports:
+      0: uid_4304 port 7
+      1: uid_4306 port 30
+- uid_4313:
+    ports:
+      0: uid_4306 port 31
+- uid_4314:
+    ports:
+      0: uid_4270 port 1
+- uid_4315:
+    ports:
+      0: uid_4304 port 8
+      1: uid_4266 port 3
+      2: uid_4306 port 32
+- uid_4317:
+    ports:
+      0: uid_4305 port 8
+      1: uid_4306 port 33
+- uid_4318:
+    ports:
+      0: uid_4306 port 34
+- uid_4319:
+    ports:
+      0: uid_4306 port 35
+- uid_4320:
+    ports:
+      0: uid_4306 port 36
+- uid_4322:
+    ports:
+      0: uid_4306 port 37
+      1: uid_4323 port 0
+- uid_4323:
+    ports:
+      0: uid_4322 port 1
+- uid_4324:
+    ports:
+      0: uid_4336 port 1
+      1: uid_4326 port 1
+      2: uid_4327 port 0
+      3: uid_4328 port 1
+      4: uid_4329 port 2
+      5: uid_4330 port 1
+      6: uid_4331 port 0
+      7: uid_4333 port 1
+      8: uid_4334 port 1
+      9: uid_4304 port 0
+      10: uid_4305 port 7
+      11: uid_4306 port 38
+      12: uid_4338 port 0
+      13: uid_4337 port 1
+- uid_4325:
+    ports:
+      0: uid_4326 port 2
+      1: uid_4337 port 2
+      2: uid_4328 port 2
+      3: uid_4329 port 3
+      4: uid_4330 port 2
+      5: uid_4332 port 0
+      6: uid_4333 port 2
+      7: uid_4334 port 2
+      8: uid_4336 port 2
+      9: uid_4305 port 2
+      10: uid_4306 port 39
+      11: uid_4338 port 1
+- uid_4326:
+    ports:
+      0: uid_3977 port 25
+      1: uid_4324 port 1
+      2: uid_4325 port 0
+- uid_4327:
+    ports:
+      0: uid_4324 port 2
+- uid_4328:
+    ports:
+      0: uid_4332 port 1
+      1: uid_4324 port 3
+      2: uid_4325 port 2
+- uid_4329:
+    ports:
+      0: uid_4332 port 2
+      1: uid_4339 port 0
+      2: uid_4324 port 4
+      3: uid_4325 port 3
+- uid_4330:
+    ports:
+      0: uid_4332 port 3
+      1: uid_4324 port 5
+      2: uid_4325 port 4
+- uid_4331:
+    ports:
+      0: uid_4324 port 6
+- uid_4332:
+    ports:
+      0: uid_4325 port 5
+      1: uid_4328 port 0
+      2: uid_4329 port 0
+      3: uid_4330 port 0
+      4: uid_4333 port 0
+      5: uid_4334 port 0
+      6: uid_4336 port 0
+      7: uid_4337 port 0
+- uid_4333:
+    ports:
+      0: uid_4332 port 4
+      1: uid_4324 port 7
+      2: uid_4325 port 6
+- uid_4334:
+    ports:
+      0: uid_4332 port 5
+      1: uid_4324 port 8
+      2: uid_4325 port 7
+- uid_4336:
+    ports:
+      0: uid_4332 port 6
+      1: uid_4324 port 0
+      2: uid_4325 port 8
+- uid_4337:
+    ports:
+      0: uid_4332 port 7
+      1: uid_4324 port 13
+      2: uid_4325 port 1
+- uid_4338:
+    ports:
+      0: uid_4324 port 12
+      1: uid_4325 port 11
+- uid_4339:
+    ports:
+      0: uid_4329 port 1
+- uid_4344:
+    ports:
+      0: uid_1864 port 5
+      1: uid_4345 port 0
+- uid_4345:
+    ports:
+      0: uid_4344 port 1
+      1: uid_1830 port 8
+- uid_4348:
+    ports:
+      0: uid_4350 port 1
+- uid_4349:
+    ports:
+      0: uid_4350 port 2
+- uid_4350:
+    ports:
+      0: uid_1864 port 6
+      1: uid_4348 port 0
+      2: uid_4349 port 0
+      3: uid_1830 port 9
+- uid_4352:
+    ports:
+      0: uid_1912 port 0
+      1: uid_4353 port 0
+      2: uid_4354 port 0
+- uid_4353:
+    ports:
+      0: uid_4352 port 1
+- uid_4354:
+    ports:
+      0: uid_4352 port 2
+- uid_4355:
+    ports:
+      0: uid_4356 port 0
+- uid_4356:
+    ports:
+      0: uid_4355 port 0
+      1: uid_4357 port 0
+      2: uid_1791 port 2
+- uid_4357:
+    ports:
+      0: uid_4356 port 1
+- uid_4360:
+    ports:
+      0: uid_1790 port 3
+- uid_4361:
+    ports:
+      0: uid_4362 port 0
+      1: uid_3927 port 3
+- uid_4362:
+    ports:
+      0: uid_4361 port 0
+- uid_4367:
+    ports:
+      0: uid_1790 port 5
+- uid_631:
+    ports:
+      0: uid_1875 port 3
+- uid_694:
+    ports:
+      0: uid_1790 port 2
+- uid_781:
+    ports:
+      0: uid_3941 port 4
+      1: uid_3974 port 4
+      2: uid_3976 port 4
+      3: uid_3978 port 4
+      4: uid_3979 port 3
+      5: uid_3980 port 4
+      6: uid_3981 port 4
+      7: uid_3933 port 4
+      8: uid_3921 port 4
+      9: uid_3931 port 4
+      10: uid_3932 port 4
+      11: uid_3965 port 4
+      12: uid_3934 port 4
+      13: uid_3973 port 7
+- uid_798:
+    ports:
+      0: uid_1792 port 16
+      1: uid_3977 port 8
+      2: uid_3930 port 13
+      3: uid_3928 port 11
+      4: uid_3929 port 6

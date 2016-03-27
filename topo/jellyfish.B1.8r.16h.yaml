@@ -1,0 +1,160 @@
+---
+Switches:
+- switch0:
+    ports:
+      0: switch1 port 0
+      1: switch12 port 0
+      2: switch2 port 0
+      3: switch3 port 0
+      4: switch4 port 0
+      5: switch8 port 0
+      6: switch9 port 0
+      7: 0.0.0.1 port 0
+- switch1:
+    ports:
+      0: switch0 port 0
+      1: switch10 port 0
+      2: switch13 port 0
+      3: switch14 port 0
+      4: switch2 port 1
+      5: switch3 port 1
+      6: switch9 port 1
+      7: 0.0.0.2 port 0
+- switch10:
+    ports:
+      0: switch1 port 1
+      1: switch11 port 0
+      2: switch14 port 1
+      3: switch3 port 2
+      4: switch4 port 1
+      5: switch5 port 0
+      6: switch8 port 1
+      7: 0.0.0.11 port 0
+- switch11:
+    ports:
+      0: switch10 port 1
+      1: switch14 port 2
+      2: switch15 port 0
+      3: switch2 port 2
+      4: switch5 port 1
+      5: switch6 port 0
+      6: switch8 port 2
+      7: 0.0.0.12 port 0
+- switch12:
+    ports:
+      0: switch0 port 1
+      1: switch13 port 1
+      2: switch15 port 1
+      3: switch4 port 2
+      4: switch5 port 2
+      5: switch6 port 1
+      6: switch9 port 2
+      7: 0.0.0.13 port 0
+- switch13:
+    ports:
+      0: switch1 port 2
+      1: switch12 port 1
+      2: switch15 port 2
+      3: switch3 port 3
+      4: switch6 port 2
+      5: switch8 port 3
+      6: switch9 port 3
+      7: 0.0.0.14 port 0
+- switch14:
+    ports:
+      0: switch1 port 3
+      1: switch10 port 2
+      2: switch11 port 1
+      3: switch15 port 3
+      4: switch2 port 3
+      5: switch3 port 4
+      6: switch7 port 0
+      7: 0.0.0.15 port 0
+- switch15:
+    ports:
+      0: switch11 port 2
+      1: switch12 port 2
+      2: switch13 port 2
+      3: switch14 port 3
+      4: switch3 port 5
+      5: switch5 port 3
+      6: switch8 port 4
+      7: 0.0.0.16 port 0
+- switch2:
+    ports:
+      0: switch0 port 2
+      1: switch1 port 4
+      2: switch11 port 3
+      3: switch14 port 4
+      4: switch4 port 3
+      5: switch5 port 4
+      6: switch7 port 1
+      7: 0.0.0.3 port 0
+- switch3:
+    ports:
+      0: switch0 port 3
+      1: switch1 port 5
+      2: switch10 port 3
+      3: switch13 port 3
+      4: switch14 port 5
+      5: switch15 port 4
+      6: switch6 port 3
+      7: 0.0.0.4 port 0
+- switch4:
+    ports:
+      0: switch0 port 4
+      1: switch10 port 4
+      2: switch12 port 3
+      3: switch2 port 4
+      4: switch5 port 5
+      5: switch7 port 2
+      6: 0.0.0.5 port 0
+- switch5:
+    ports:
+      0: switch10 port 5
+      1: switch11 port 4
+      2: switch12 port 4
+      3: switch15 port 5
+      4: switch2 port 5
+      5: switch4 port 4
+      6: switch6 port 4
+      7: 0.0.0.6 port 0
+- switch6:
+    ports:
+      0: switch11 port 5
+      1: switch12 port 5
+      2: switch13 port 4
+      3: switch3 port 6
+      4: switch5 port 6
+      5: switch7 port 3
+      6: switch9 port 4
+      7: 0.0.0.7 port 0
+- switch7:
+    ports:
+      0: switch14 port 6
+      1: switch2 port 6
+      2: switch4 port 5
+      3: switch6 port 5
+      4: switch8 port 5
+      5: switch9 port 5
+      6: 0.0.0.8 port 0
+- switch8:
+    ports:
+      0: switch0 port 5
+      1: switch10 port 6
+      2: switch11 port 6
+      3: switch13 port 5
+      4: switch15 port 6
+      5: switch7 port 4
+      6: switch9 port 6
+      7: 0.0.0.9 port 0
+- switch9:
+    ports:
+      0: switch0 port 6
+      1: switch1 port 6
+      2: switch12 port 6
+      3: switch13 port 6
+      4: switch6 port 6
+      5: switch7 port 5
+      6: switch8 port 6
+      7: 0.0.0.10 port 0
